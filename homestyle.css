@@ -1,0 +1,113 @@
+
+
+body,html{
+    height: 100vh;
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ 
+.begin{
+    float: right;
+    
+}
+   ul {list-style-type: none;margin:0;padding: 0;overflow: hidden; background-color:#19181a;}
+
+   li {float: left;}
+   
+   li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+   
+   li a:hover:not(.active) {background-color: #5d056a;}
+  
+   .active {background-color: #5a0637;}
+
+
+   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a0637;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+ }
+ 
+
+ .Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(./images/index/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 30s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #b01515;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+.content p{
+    background: #4d4d4d;
+    color: #fff;
+    padding: 20px;
+    opacity: 70%;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(./images/index/2.jpg);
+    }
+    20%
+    {
+        background-image: url(./images/index/3.jpg);
+    }
+    40%
+    {
+        background-image: url(./images/index/1.jpg);
+    }
+    60%
+    {
+        background-image: url(./images/index/4.jpg);
+    }
+    80%
+    {
+        background-image: url(./images/index/1.jpg);
+    }
+    100%
+    {
+        background-image: url(./images/index/2.jpg);
+    }
+}

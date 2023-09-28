@@ -1,0 +1,62 @@
+
+
+body,html{
+  height: 100vh;
+  font-family: monospace;
+  padding: 0px;
+  margin: 0px;
+  background-image: url('./images/buy drone/7.jpg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.begin{
+  float: right;
+ 
+  
+}
+ ul {list-style-type: none;margin:0;padding: 0;overflow: hidden; background-color:#19181a;}
+
+ li {float: left;}
+ 
+ li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+ 
+ li a:hover:not(.active) {background-color: #5d056a;}
+
+ .active {background-color: #5a0637;}
+
+
+ footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #5a0637;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+img{width: 250px;height: 200px;padding-bottom: 5vh;}
+ 
+table{width: 100%; ;
+    text-align: center;
+    font-size: 20px;
+    
+ }
+
+ 
+th{border:5px solid black;padding: 0;margin-top: 0%;}
+th,td {padding-bottom: 5px;padding-top:0;}
+
+  div{
+    padding-bottom: 3vh;
+  }
+
+  h1{
+    text-align: center;
+    text-transform:uppercase;
+    color: rgb(211, 119, 14);
+  }

@@ -1,0 +1,73 @@
+
+
+body,html{
+    height: 100vh;
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./images/regulations/4.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  
+  
+  
+  .begin{
+    float: right;
+   
+    
+  }
+   ul {list-style-type: none;margin:0;padding: 0;overflow: hidden; background-color:#19181a;}
+  
+   li {float: left;}
+   
+   li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+   
+   li a:hover:not(.active) {background-color: #5d056a;}
+  
+   .active {background-color: #5a0637;}
+  
+  
+   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a0637;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 1%;
+    
+  }
+  
+  img{width: 720px;;padding-bottom: 5vh;}
+   
+  table{width: 100%; ;
+     
+      font-size: 20px;
+      
+   }
+  
+   
+   
+  th,tr {padding-bottom: 5px;padding-top:0;}
+  
+    div{
+      padding-bottom: 3vh;
+    }
+  
+    h1{
+   
+      text-transform:uppercase;
+      color: rgb(219, 18, 25);
+      font-size: 35px;
+    }
+    p{
+      text-align: justify;
+      text-transform:uppercase;
+      color: aliceblue;
+      font-size: 20px;
+      margin: 5px;
+      padding: 15px;
+    }

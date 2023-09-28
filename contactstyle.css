@@ -1,0 +1,92 @@
+
+
+body,html{
+    height: 100vh;
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+   text-align: center;
+   font-size: 35px;
+}
+
+h2{
+   text-align: center;
+   padding: 15px;
+}
+
+
+ 
+.begin{
+    float: right;
+    
+}
+   ul {list-style-type: none;margin:0;padding: 0;overflow: hidden; background-color:#19181a;}
+
+   li {float: left;}
+   
+   li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+   
+   li a:hover:not(.active) {background-color: #5d056a;}
+  
+   .active {background-color: #5a0637;}
+
+
+   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a0637;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    
+ }
+ 
+ table{width: 100%;
+      border-collapse: separate;
+       border-spacing: 10px; }
+
+ img{width: 200px;height: 200px;}
+ 
+ 
+ th,td {padding-bottom: 0px;padding-top: 0px;padding-right: 10%;}
+ 
+ p{
+     
+     
+   
+    color: rgb(2, 2, 2);
+    text-align: left;
+    font-size: 25px;
+    
+ }
+
+ button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #18d758; 
+    color: #ffffff; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  button:hover {
+    background-color: #30cece; 
+  }
+  
+  
+ 
+  
+ 
+ 
+ 
